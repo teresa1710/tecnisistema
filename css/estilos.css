@@ -82,7 +82,7 @@ header .menu a:hover {
 
 /* - - - - A R E A S  D E  N E G O C I O - - - - */
 
-.main .areas-de-negocio .titulo {
+.main .titulo {
     font-weight: 300;
     font-size: 5rem;
     margin: 7rem 0rem;
@@ -104,9 +104,114 @@ header .menu a:hover {
     width: 12rem;
 }
 
-.main .areas-de-negocio p,
 .main .areas-de-negocio p{
     margin: 2rem 0;
     font-size: 2rem;
     font-weight: 300;
+}
+
+.main .areas-de-negocio p:hover{
+    text-decoration: underline solid var(--gris-texto);
+}
+
+/* - - - - N U M E R O S - - - - */
+
+.main .numeros {
+    background: url("../img/Fondos/meeting-azul.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    padding: 8rem 0;
+    height: 50rem;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+.main .numeros .numero {
+    color: #fff;
+    font-size: 10rem;
+    font-weight: 300;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.main .numeros .palabra {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 300;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* - - - - C O N T A C T O - - - - */
+
+.main .contacto h5 {
+    font-size: 2.5rem;
+    text-align: center;
+    overflow: hidden;
+    font-weight: 300;
+}
+
+.main .contacto .segundo-bloque {
+    display: flex;
+    align-items: center;
+}
+
+.main .contacto .direccion {
+    margin-bottom: 3rem;
+    line-height: 3rem;
+}
+
+.main .contacto .correo{
+    vertical-align: middle;
+}
+
+.main .contacto .horarios {
+    margin-bottom: 7rem;
+}
+
+/* - - - -  F O R M U L A R I O - - - - */
+
+.main .contacto .formulario {
+    margin-bottom: 7rem;
+}
+
+.main .contacto .formulario input{
+    height: 5rem;
+}
+
+::placeholder{
+    font-size: 2rem;
+}
+
+.contacto textarea {
+    margin-top: 2rem;
+    height: 10rem;
+    max-height: 10rem;
+}
+
+.contacto button{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+}
+
+.contacto button:hover{
+    background: var(--azul-electrico);
+}
+
+/* - - - - M A P A - - - - */
+
+.mapa{
+    width: 100%;
+    overflow: hidden;
+}
+
+.mapa iframe {
+    width: 100%;
+    max-height: 600px;
+    vertical-align:bottom;
 }

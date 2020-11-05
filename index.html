@@ -163,18 +163,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <h3>+20</h3>
-                        <h5>Clientes</h5>
+                        <h3 class="numero">+20</h3>
+                        <h5 class="palabra">Clientes</h5>
                     </div>
 
                     <div class="col-md-4">
-                        <h3>+25</h3>
-                        <h5>Años de experiencia</h5>
+                        <h3 class="numero">+25</h3>
+                        <h5 class="palabra">Años de experiencia</h5>
                     </div>
 
                     <div class="col-md-4">
-                        <h3>+100</h3>
-                        <h5>Proyectos</h5>
+                        <h3 class="numero">+100</h3>
+                        <h5 class="palabra">Proyectos</h5>
                     </div>
                 </div>
             </div>
@@ -188,58 +188,63 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>Avenida San Ignacio de Loyola, </h5>
-                        <h5>Res. San Ignacio. Piso 4, Oficina A4D</h5>
-                        <h5>Chacao, Caracas.</h5>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h5>Horarios:</h5>
-                        <h5>Lunes a Viernes</h5>
-                        <h5>8:00 am - 4:00 pm</h5>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>Teléfonos:</h5>
-                        <h5>+58 (212) 264 11 20 </h5>
-                        <h5>+58 (212) 264 05 22</h5>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h5>tecnisistema@tecnisistema.com</h5>
-                    </div>
-                </div>
-
-                <form method="POST">
+                <div class="horarios">
                     <div class="row">
-                        <div class="col-md-6">
-                            <input class="form-nombre form-control form-control-lg" 
-                            required id="name" name="nombre" type="text" placeholder="Nombre" required>
+                        <div class="col-md-6 direccion">
+                            <h5>Avenida San Ignacio de Loyola, </h5>
+                            <h5>Res. San Ignacio. Piso 4, Oficina A4D</h5>
+                            <h5>Chacao, Caracas.</h5>
                         </div>
 
                         <div class="col-md-6">
-                            <input class="form-control form-control-lg" 
-                            required id="email" name="correo" type="email" placeholder="Correo Electrónico" required>
+                            <h5>Horarios:</h5>
+                            <h5>Lunes a Viernes</h5>
+                            <h5>8:00 am - 4:00 pm</h5>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-12">
-                            <textarea class="form-control contacto-mensaje" 
-                            required id="message" name="mensaje" placeholder="Mensaje" required></textarea>
+                    <div class="row segundo-bloque">
+                        <div class="col-md-6 telefonos">
+                            <h5>Teléfonos:</h5>
+                            <h5>+58 (212) 264 11 20 </h5>
+                            <h5>+58 (212) 264 05 22</h5>
                         </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-xs-12 col-md-12 text-center clase-boton">
-                            <button type="submit" name="enviar" class="boton-enviar btn btn-primary btn-lg">Enviar</button>
+                        <div class="col-md-6 correo">
+                            <h5>tecnisistema@tecnisistema.com</h5>
                         </div>
                     </div>
-                </form>
+                </div>
+
+                <div class="formulario">
+                    <form method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input class="form-nombre form-control input-lg form-control-lg" 
+                                    required id="name" name="nombre" type="text" placeholder="Nombre" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input class="form-control form-control-lg" 
+                                    required id="email" name="correo" type="email" placeholder="Correo Electrónico" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea class="form-control contacto-mensaje" 
+                                    required id="message" name="mensaje" placeholder="Mensaje" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12 text-center clase-boton">
+                                    <button type="submit" name="enviar" class="boton-enviar btn btn-primary btn-lg">Enviar</button>
+                                </div>
+                            </div>
+                        
+                    </form>
+                </div>
             </div>
         </section>
 

@@ -215,3 +215,53 @@ header .menu a:hover {
     max-height: 600px;
     vertical-align:bottom;
 }
+
+/* - - - - R E D E S   S O C I A L E S - - - - */
+
+footer .redes-sociales {
+    background: #bdbdbd;
+    height: 10rem;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+footer .redes-sociales .r-sociales {
+    overflow: hidden;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    font-size: 5rem;
+    padding: 2rem 3rem;
+    align-items: center;
+}
+
+footer .redes-sociales .facebook:hover{
+    background: var(--facebook);
+}
+
+footer .redes-sociales .instagram:hover{
+    background: var(--instagram);
+}
+
+footer .redes-sociales .twitter:hover{
+    background: var(--twitter);
+}
+
+/* - - - - C R E D I T O S - - - - */
+
+footer .creditos {
+    background-color: var(--gris-texto);
+    text-align: center;
+}
+
+footer .creditos a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .creditos a:hover{
+    text-decoration: underline;
+}

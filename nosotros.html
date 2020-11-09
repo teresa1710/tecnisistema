@@ -6,6 +6,7 @@
     <title>Tecnisistema Lanwork Place, C.A</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-nosotros.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -16,13 +17,14 @@
     <script src="js/links.js"></script>
 </head>
 <body>
+    
     <header>
-        <div class="row">
+        <div class="row menu-logo">
             <div class="col-md-6">
-                <img src="img/logo.png" alt="">
+                <img class="logo" src="img/logo.png" alt="">
             </div>
 
-            <div class="col-md-6 redes-sociales-heade">
+            <div class="col-md-6 redes-sociales-header">
                 <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
@@ -38,13 +40,13 @@
                     </button>
                 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav navbar-center mx-auto">
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Inicio</a>
                             </li>
                        
                             <li class="nav-item active">
-                                <a class="nav-link" href="#" id="btn-servicios">Nosotros<span class="sr-only">(current)</span></a>
+                                <a class="actual nav-link" href="#" id="btn-servicios">Nosotros<span class="sr-only">(current)</span></a>
                             </li>
                             
                             <li class="nav-item">
@@ -72,70 +74,83 @@
             </div>          
 
 
-        </div>
+        </div>       
     </header>
 
+
+
     <section class="main">
-        <div class="container">
-
-            <div class="titulo">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Nosotros</h2>
-                    </div>
+        <section class="nosotros">
+            <div class="row fondo-nosotros">
+                <div class="col-md-12">
+                    <h2 class="titulo">Nosotros</h2>
                 </div>
             </div>
+        </section>
 
-            <div class="acerca-de">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>Acerca de</h2>
-                    </div>
+        <section class="quienes-somos">
+            <div class="row">
+                <div class="col-md-3 titulo-quienes">
+                    <h2 class="subtitulo">¿Quienes somos?</h2>
+                </div>
 
-                    <div class="col-md-6">
-                        <p>Somos una empresa dedicada al comercio de productos y soluciones tecnológicas contando con una plataforma de gran valor agregado, pues somos distribuidores directos de las marcas más reconocidas en el mercado latinoamericano.</p>
-                    </div>
+                <div class="col-md-8 izquierda">
+                    <p class="texto">Somos una empresa dedicada al comercio de productos y soluciones tecnológicas contando
+                        con una plataforma de gran valor agregado, pues somos distribuidores directos de las marcas más reconocidas
+                        en el mercado latinoamericano. A lo largo de los años, nuestra empresa ha forjado sólidas relaciones con las
+                        marcas más valiosas del mercado tecnológico. Nuestras soluciones innovadoras, basadas en una plataforma de
+                        servicios especializados, nos han llevado a ofrecer un servicio llave en mano a nuestros clientes,
+                        lo que nos ha permitido gestionar cuatro áreas de servicio especializadas que incluyen las siguientes
+                        áreas de negocio: Computación, Telecomunicaciones, Seguridad y Energía. 
+                    </p>
                 </div>
             </div>
+        </section>
 
-            <div class="mision">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi minima doloremque quas, qui ipsum, numquam, aut praesentium ad obcaecati rerum voluptate repellendus! Tempora quis temporibus explicabo, id laboriosam ipsam iste?</p>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <h2>Misión</h2>
-                    </div>
+        <section class="mision">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam optio libero dolores amet
+                        accusantium atque odio consequuntur quaerat. Sunt praesentium nihil eum assumenda et mollitia ullam!
+                        Facere consequatur non fugit. </p>
+                </div>
 
-                    
+                <div class="col-md-4">
+                    <h2 class="subtitulo">Misión</h2>
                 </div>
             </div>
+        </section>
 
-            <div class="vision">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>Visión</h2>
-                    </div>
 
-                    <div class="col-md-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi minima doloremque quas, qui ipsum, numquam, aut praesentium ad obcaecati rerum voluptate repellendus! Tempora quis temporibus explicabo, id laboriosam ipsam iste?</p>
-                    </div>
+        <section class="vision">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="subtitulo">Vision</h2>
+                </div>
+
+                <div class="col-md-8">
+                    <p class="texto izquierda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore non vitae
+                        nulla sunt numquam quas soluta voluptatem culpa quae id, error, eum totam est fuga ex similique 
+                        tenetur? Earum, eligendi.
+                    </p>
                 </div>
             </div>
-
-
-        </div>
+        </section>
     </section>
 
     <footer>
-
         <section class="redes-sociales">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="row mx-auto">
+                    <div class="r-sociales col-md-4">
                         <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+
+                    <div class="r-sociales col-md-4">
                         <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                    <div class="r-sociales col-md-4">
                         <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    --gris: #7E7D7D;
+    --gris-texto: #4E4D53;
+    --azul-electrico: #1900FF;
+    --facebook: #3b5998;
+    --twitter: #1da1f2;
+    --instagram: #c13584;
+}
+
+body {
+    font-family: "Open Sans", Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* - - - - T I T U L O - - - - */
+
+.main .nosotros {
+    background: url("../img/Fondos/computer2-azul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    height: 50rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .nosotros .titulo {
+    color: #fff;
+}
+
+/* - - - - Q U I E N E S  S O M O S - - - - */
+
+.main .quienes-somos{
+    background: #d3d2d2;
+    height: 35rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.main .quienes-somos .izquierda{
+    margin-right: 1rem;
+}
+
+.main .subtitulo {
+    overflow: hidden;
+    color: #4E4D53;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.main .texto {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: right;
+}
+
+/* - - - - M I S I O N - - - - */
+
+.main .mision {
+    background: url("../img/Fondos/computer-azul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    height: 30rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mision .texto{
+    color: #fff;
+}
+
+.mision .subtitulo{
+    color: #fff;
+}
+
+/* - - - - V I S I O N - - - - */
+
+.main .vision {
+    background: #3e3d41;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vision .texto{
+    color: #fff;
+}
+
+.vision .subtitulo{
+    color: #fff;
+}
+

@@ -8,7 +8,6 @@
     --facebook: #3b5998;
     --twitter: #1da1f2;
     --instagram: #c13584;
-
 }
 
 body {
@@ -70,6 +69,10 @@ header .menu a {
 }
 
 header .menu a:hover {
+    text-decoration: underline;
+}
+
+header .menu .actual {
     text-decoration: underline;
 }
 

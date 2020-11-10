@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    --gris: #7E7D7D;
+    --gris-texto: #4E4D53;
+    --azul-electrico: #1900FF;
+    --facebook: #3b5998;
+    --twitter: #1da1f2;
+    --instagram: #c13584;
+}
+
+body {
+    font-family: "Open Sans", Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* - - - - P R O Y E C T O S - - - - */
+
+.main .proyecto-titulo{
+    background: url("../img/Fondos/pryectos-fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    height: 80rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .proyecto-titulo h2{
+    color: #fff;
+}
+
+.main .proyectos .cont-slogan{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .proyectos .slogan {
+    font-size: 2.5rem;
+    font-weight: 300;
+    overflow: hidden;
+    margin: 5rem 0;
+    padding: 2rem 10rem;
+    color: #160c35;
+}
+
+.main .proyectos .proyecto {
+    margin: 5rem 0;
+}
+
+.main .proyectos .proyecto .proyecto-texto{
+    margin: 5rem 2rem;
+}
+
+.main .proyectos .proyecto .tecnologias{
+    color: var(--gris-texto);
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.main .proyectos .proyecto-imagen{
+    width: 50rem;
+}
+
+.main .proyectos .proyecto i{
+    color: var(--azul-electrico);
+}

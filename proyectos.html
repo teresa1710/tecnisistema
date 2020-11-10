@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecnisistema Lanwork Place, C.A</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos-proyectos.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -15,20 +16,20 @@
     <script src="js/script.js"></script>
     <script src="js/links.js"></script>
 </head>
+
 <body>
     <header>
-        <div class="row">
+        <div class="row menu-logo">
             <div class="col-md-6">
-                <img src="img/logo.png" alt="">
+                <img class="logo" src="img/logo.png" alt="">
             </div>
 
-            <div class="col-md-6 redes-sociales-heade">
+            <div class="col-md-6 redes-sociales-header">
                 <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
             </div>
-        </div>
-        
+        </div>        
         
         <div class="row">
             <div class="col-md-12">
@@ -38,17 +39,17 @@
                     </button>
                 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav navbar-center mx-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Inicio</a>
+                                <a href="index.html" class="nav-link">Inicio</a>
                             </li>
                        
                             <li class="nav-item active">
-                                <a class="nav-link" href="#" id="btn-servicios">Nosotros<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="nosotros.html" id="btn-servicios">Nosotros<span class="sr-only">(current)</span></a>
                             </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link" href="#" id="btn-pasos">Áreas de Negocio</a>
+                                <a class="nav-link" href="areas-de-negocio.html" id="btn-pasos">Áreas de Negocio</a>
                             </li>
                             
                             <li class="nav-item">
@@ -56,74 +57,93 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link" id="btn-precios">Proyectos</a>
+                                <a href="proyectos.html" class="actual nav-link" id="btn-precios">Proyectos</a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link" id="btn-precios">Eventos</a>
+                                <a href="eventos.html" class="nav-link" id="btn-precios">Eventos</a>
                             </li>
                             
                             <li class="nav-item">
-                                <a href="#" class="nav-link" id="btn-ubicacion">Contacto</a>
+                                <a href="index.html" class="nav-link" id="btn-ubicacion">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
-            </div>
+            </div>          
+
+
         </div>
     </header>
 
     <section class="main">
-        <div class="container">
-
-            <div class="titulo">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Proyectos Realizados</h2>
-                    </div>
+        
+        <section class="proyecto-titulo">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="titulo">Proyectos</h2>
                 </div>
             </div>
+        </section>
 
-            <div class="contenido">
+        <section class="proyectos">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h3>En Tecnisistema armamos el proyecto de acuerdo a tus necesidades.</h3>
+                    <div class="col-md-12 cont-slogan">
+                        <h3 class="slogan">En Tecnisistema armamos el proyecto de acuerdo a tus necesidades</h3>
                     </div>
                 </div>
 
-                <div class="row">
+
+                <div class="row proyecto">
                     <div class="col-md-4">
-                        <img src="img/Fondos/proyecto1.jpg" alt="">
+                        <img class="proyecto-imagen" src="img/Fondos/fondo4.jpg" alt="">
                     </div>
 
-                    <div class="col-md-6">
-                        <h3>Lorem ipsum dolor sit amet, consectetur </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <div class="col-md-6 proyecto-texto">
+                            <p>Sitio Web para la empresa Tecnicargo, una empresa dedicada al transporte
+                            desde Estados Unidos a Venezuela.</p>
+ 
+                            <p class="tecnologias"> <i class="fas fa-laptop"></i> HTML, CSS, Bootstrap, Javascript, Jquery, PHP</p>
+                            <p class="fecha"><i class="fas fa-calendar-alt"></i> Septiembre 2020</p>
+                        
                     </div>
                 </div>
 
-                <div class="row">             
-                    <div class="col-md-6">
-                        <h3>Lorem ipsum dolor sit amet, consectetur </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                <div class="row proyecto">
+                    <div class="col-md-6 proyecto-texto">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum fuga quasi eum nulla id, nostrum, beatae blanditiis 
+                            tenetur optio unde aliquam natus quibusdam reiciendis ipsa, 
+                            fugit fugiat recusandae cumque. Iure.</p>
+                        
+                        <p class="tecnologias"> <i class="fas fa-laptop"></i> HTML, CSS, Bootstrap, Javascript, Jquery, PHP</p>
+                        <p class="fecha"><i class="fas fa-calendar-alt"></i> Septiembre 2020</p>
                     </div>
-                    
+
                     <div class="col-md-4">
-                        <img src="img/Fondos/proyecto1.jpg" alt="">
+                        <img class="proyecto-imagen" src="img/Fondos/proyecto1.jpg" alt="">
                     </div>
+
                 </div>
-   
             </div>
-        </div>
+        </section>
     </section>
 
     <footer>
         <section class="redes-sociales">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="row mx-auto">
+                    <div class="r-sociales col-md-4">
                         <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+
+                    <div class="r-sociales col-md-4">
                         <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                    <div class="r-sociales col-md-4">
                         <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
@@ -140,4 +160,6 @@
             </div>
         </section>
     </footer>
+    
+
 </body>

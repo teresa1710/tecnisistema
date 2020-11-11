@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    --gris: #7E7D7D;
+    --gris-texto: #4E4D53;
+    --azul-electrico: #1900FF;
+    --facebook: #3b5998;
+    --twitter: #1da1f2;
+    --instagram: #c13584;
+}
+
+body {
+    font-family: "Open Sans", Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* - - - - E V E N T O S - - - - */
+
+.main .proyecto-titulo{
+    background: url("../img/Fondos/Event-azul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    height: 80rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

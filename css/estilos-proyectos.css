@@ -22,7 +22,7 @@ html {
 /* - - - - P R O Y E C T O S - - - - */
 
 .main .proyecto-titulo{
-    background: url("../img/Fondos/pryectos-fondo.jpg");
+    background: url("../img/Fondos/proyectos-fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0;
@@ -73,4 +73,9 @@ html {
 
 .main .proyectos .proyecto i{
     color: var(--azul-electrico);
+    font-size: 2rem;
+}
+
+.main .proyectos .proyecto .proyecto-izquierda p{
+    text-align: right;
 }

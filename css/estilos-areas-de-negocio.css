@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    --gris: #7E7D7D;
+    --gris-texto: #4E4D53;
+    --azul-electrico: #1900FF;
+    --facebook: #3b5998;
+    --twitter: #1da1f2;
+    --instagram: #c13584;
+}
+
+body {
+    font-family: "Open Sans", Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* A R E A S  D E  N E G O C I O */
+
+.main .areas-titulo{
+    background: url("../img/Fondos/carrusel6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    height: 80rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .menu-areas{
+    margin: 5rem 0;
+    padding: 5rem 0;
+    background-color: #0f065d;
+}
+
+.main .menu-areas i{
+    color: rgb(200, 200, 200);
+    font-size: 6rem;
+}
+
+.main .menu-areas i:hover{
+    color: #fff;
+}
+

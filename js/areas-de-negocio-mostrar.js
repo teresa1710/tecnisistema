@@ -1,19 +1,13 @@
-function mostrarComputacion(){
-    document.getElementById('computacion').style.display="block";
-}
+$(document).ready(function(){
 
-function mostrarRedes(){
-    document.getElementById('redes').style.display="block";
-}
+    $('#mostrarComputacion').click(function(){
+        $('#computacion').toggle();
+    });
 
-function mostrarSeguridad(){
-    document.getElementById('seguridad').style.display="block";
-}
+    $('#mostrarRedes').click(function(){
+        $('#redes').toggle();
+    });
 
-function mostrarEnergia(){
-    document.getElementById('energia').style.display="block";
-}
 
-function mostrarDesarrollo(){
-    document.getElementById('desarrollo').style.display="block";
-}
+
+})

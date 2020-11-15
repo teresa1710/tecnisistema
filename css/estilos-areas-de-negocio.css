@@ -48,3 +48,12 @@ html {
     color: #fff;
 }
 
+
+/* - - - - S E C C I O N E S - - - - */
+
+.main .redes,
+.main .seguridad,
+.main .energia,
+.main .desarrollo-web{
+    display: none;
+}

@@ -26,7 +26,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0;
-    height: 80rem;
+    height: 60rem;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -37,6 +37,10 @@ html {
     margin: 5rem 0;
     padding: 5rem 0;
     background-color: #0f065d;
+}
+
+.main .menu-areas .botones-menu{
+    overflow: hidden;
 }
 
 .main .menu-areas i{
@@ -56,4 +60,28 @@ html {
 .main .energia,
 .main .desarrollo-web{
     display: none;
+}
+
+.main .menu-areas .botones-menu .btn-computacion{
+    border-bottom: 2px solid #c8c8c8;
+}
+
+/* - - - - C A T E G O R I A S - - - - */
+
+.categorias {
+    background: #180a96;
+    margin: 3rem 0;
+}
+
+.categorias-padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorias i{
+    color: #fff;
+    font-size: 5rem;
+    margin: 2rem;
+    padding: 2rem;
 }

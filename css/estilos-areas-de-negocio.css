@@ -82,6 +82,69 @@ html {
 .categorias i{
     color: #fff;
     font-size: 5rem;
-    margin: 2rem;
+    margin: 2rem 2rem 0 2rem;
     padding: 2rem;
+}
+
+.categorias i:hover{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+
+.categorias a {
+    text-decoration: none;
+}
+
+.categorias .categoria-individual p{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.categorias .categoria-individual p:hover{
+    text-decoration: underline;
+}
+
+/* - - - - M A R C A S - - - - */
+
+.main .marcas{
+    margin-bottom: 4rem;
+}
+.main .marcas .marca {  
+    width: 18rem;
+}
+
+.main .marcas .marca-grande{
+    width: 15rem;
+}
+
+.main .marcas .marca-extra-grande {
+    width: 12rem;
+}
+
+.main .marcas .alinear-marcas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .marcas .alinear-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .marcas .subtitulo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    overflow: hidden;
+    margin: 3rem 0;
+}
+
+.main .computadoras,
+.main .impresoras,
+.main .componentes,
+.main .telefonos,
+.main .pantallas {
+    display: none;
 }

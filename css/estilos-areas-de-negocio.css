@@ -114,7 +114,7 @@ html {
     width: 18rem;
 }
 
-.main .marcas .marca-grande{
+.main .marca-grande{
     width: 15rem;
 }
 
@@ -146,5 +146,23 @@ html {
 .main .componentes,
 .main .telefonos,
 .main .pantallas {
+    display: none;
+}
+
+.main .lan-wan,
+.main .fibra-optica,
+.main .cableado {
+    display: none;
+}
+
+.main .ctrlAcceso,
+.main .ctrlFlota,
+.main .seguridadLogica,
+.main .seguridadFisica{
+    display: none;
+}
+
+.main .plantas,
+.main .ups{
     display: none;
 }

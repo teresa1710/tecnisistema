@@ -10,19 +10,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <!--<script src="js/jquery-3.5.1.min.js"></script>-->
+        <script src="js/waypoints-1.js"></script>
+        <script src="js/Counter-Up-master/jquery.counterup.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/links.js"></script>
-        
-        <script>
-            jQuery(document).ready(function( $ ) {
-                $('.numero').counterUp({
-                    delay: 40,
-                    time: 1000
-                });
-            });
-          </script>
+        <script src="js/contador.js"></script>
+
         
 
 </head>
@@ -309,10 +303,9 @@
         </section>
     </footer>
 
-    <script src="js/waypoints-1.js"></script>
-    <script src="js/Counter-Up-master/jquery.counterup.js"></script>
-    
-
+    <?php 
+        include('correo.php');
+    ?>
 </body>
 
 </html>

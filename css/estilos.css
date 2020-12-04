@@ -83,6 +83,42 @@ header .menu .actual {
     height: 90rem;
 }
 
+
+.carrusel .texto-carrusel-1{
+    font-size: 8rem;
+    font-weight: 300;
+    margin-bottom: 55rem;
+    overflow: hidden;
+    background: #120588;
+}
+
+.carrusel .texto-carrusel-2{
+    font-size: 5rem;
+    font-weight: 300;
+    background: #1660ff;
+    overflow: hidden;
+}
+
+.carrusel .texto-carrusel-3{
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 20rem;
+    overflow: hidden;
+    background-color: #120588;
+    
+}
+
+.carrusel .texto-carrusel-4{
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 35rem;
+    overflow: hidden;
+    text-align: center;
+    width: 55rem;
+    margin-left: 60rem;
+    background: #1660ff;
+    padding: 2rem;
+}
 /* - - - - A R E A S  D E  N E G O C I O - - - - */
 
 .main .titulo {
@@ -105,6 +141,11 @@ header .menu .actual {
 .main .areas-de-negocio .primera-fila .img-iconos,
 .main .areas-de-negocio .segunda-fila .img-iconos {
     width: 12rem;
+}
+
+.main .areas-de-negocio a{
+    text-decoration: none;
+    color: var(--gris-texto);
 }
 
 .main .areas-de-negocio p{

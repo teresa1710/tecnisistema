@@ -198,9 +198,18 @@ header .menu .actual {
     font-weight: 300;
 }
 
+.main .contacto .subtitulo-ciudad{
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
 .main .contacto .segundo-bloque {
     display: flex;
     align-items: center;
+}
+
+.main .contacto .tercer-bloque{
+    margin-top: 3rem;
 }
 
 .main .contacto .direccion {
@@ -208,12 +217,12 @@ header .menu .actual {
     line-height: 3rem;
 }
 
-.main .contacto .correo{
-    vertical-align: middle;
-}
-
 .main .contacto .horarios {
     margin-bottom: 7rem;
+}
+
+.main .contacto .correo{
+    margin-top: 3rem;
 }
 
 /* - - - -  F O R M U L A R I O - - - - */

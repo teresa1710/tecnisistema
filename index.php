@@ -13,10 +13,9 @@
         <script src="js/waypoints-1.js"></script>
         <script src="js/Counter-Up-master/jquery.counterup.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/links.js"></script>
+        <script src="js/popper.min.js"></script>        
         <script src="js/contador.js"></script>
-
+        <script src="js/enlaces.js"></script>
         
 
 </head>
@@ -48,23 +47,23 @@
                             </li>
                        
                             <li class="nav-item active">
-                                <a class="nav-link" href="nosotros.html" id="btn-servicios">Nosotros<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="nosotros.html" id="btn-nosotros">Nosotros<span class="sr-only">(current)</span></a>
                             </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link" href="areas-de-negocio.html" id="btn-pasos">Áreas de Negocio</a>
+                                <a class="nav-link" href="#" id="btn-areas">Áreas de Negocio</a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="proyectos.html" class="nav-link" id="btn-precios">Proyectos</a>
+                                <a href="proyectos.html" class="nav-link">Proyectos</a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="eventos.html" class="nav-link" id="btn-precios">Eventos</a>
+                                <a href="eventos.html" class="nav-link">Eventos</a>
                             </li>
                             
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link" id="btn-ubicacion">Contacto</a>
+                                <a href="#" class="nav-link" id="btn-contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -130,7 +129,7 @@
     </header>
 
     <section class="main">
-        <section class="areas-de-negocio">
+        <section class="areas-de-negocio" id="areas">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -200,7 +199,7 @@
             </div>
         </section>
 
-        <section class="contacto">
+        <section class="contacto" id="contacto">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -211,15 +210,15 @@
                 <div class="horarios">
                     <div class="row">
                         <div class="col-md-6 direccion">
+                            <h5 class="subtitulo-ciudad">Caracas</h5>
                             <h5>Avenida San Ignacio de Loyola, </h5>
                             <h5>Res. San Ignacio. Piso 4, Oficina A4D</h5>
                             <h5>Chacao, Caracas.</h5>
                         </div>
 
                         <div class="col-md-6">
-                            <h5>Horarios:</h5>
-                            <h5>Lunes a Viernes</h5>
-                            <h5>8:00 am - 4:00 pm</h5>
+                            <h5 class="subtitulo-ciudad">Puerto Ordaz</h5>
+                            
                         </div>
                     </div>
 
@@ -230,7 +229,20 @@
                             <h5>+58 (212) 264 05 22</h5>
                         </div>
 
-                        <div class="col-md-6 correo">
+                        <div class="col-md-6">
+                        </div>
+                    </div>
+
+                    <div class="row tercer-bloque">
+                        <div class="col-md-6">
+                            <h5>Horarios:</h5>
+                            <h5>Lunes a Viernes</h5>
+                            <h5>8:00 am - 4:00 pm</h5>
+                        </div>
+                    </div>
+
+                    <div class="row correo">
+                        <div class="col-md-12">
                             <h5>tecnisistema@tecnisistema.com</h5>
                         </div>
                     </div>

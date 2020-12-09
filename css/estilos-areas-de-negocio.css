@@ -22,7 +22,7 @@ html {
 /* A R E A S  D E  N E G O C I O */
 
 .main .areas-titulo{
-    background: url("../img/Fondos/carrusel6.jpg");
+    background: url("../img/Fondos/areas-de-negocio.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0;
@@ -31,6 +31,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.main .titulo-areas{
+    color: #fff;
 }
 
 .main .menu-areas{

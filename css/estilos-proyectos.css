@@ -74,6 +74,7 @@ html {
 .main .proyectos .proyecto i{
     color: var(--azul-electrico);
     font-size: 2rem;
+    overflow: hidden;
 }
 
 .main .proyectos .proyecto .proyecto-izquierda p{

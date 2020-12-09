@@ -5,10 +5,10 @@
             $correo = $_POST['correo'];
             $mensaje = $_POST['mensaje'];
 
-            $asunto = "CONTACTO TECNICARGO";
+            $asunto = "CONTACTO TECNISISTEMA";
             $destinatario = "tecnisistema@tecnisistema.com";
 
-            $elcorreo = "Este mensaje fue enviado desde el Sitio Web de Tecnicargo. \n";
+            $elcorreo = "Este mensaje fue enviado desde el Sitio Web de Tecnisistema. \n";
             $elcorreo .= "DE: $nombre .\n";
             $elcorreo .= "CORREO ELECTRONICO: $correo .\n";
             $elcorreo .= "MENSAJE: $mensaje .\n";

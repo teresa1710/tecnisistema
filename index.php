@@ -44,7 +44,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav navbar-center mx-auto">
                             <li class="nav-item">
-                                <a href="index.html" class="actual nav-link">Inicio</a>
+                                <a href="index.php" class="actual nav-link">Inicio</a>
                             </li>
                        
                             <li class="nav-item active">
@@ -101,7 +101,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img class="d-block imagen-carrusel" src="img/Fondos/carrusel-3.jpg" alt="Second slide">
+                                <img class="d-block imagen-carrusel" src="img/Fondos/security.png" alt="Second slide">
                                 <div class="carousel-caption">
                                     <h2 class="texto-carrusel-3">Manten tus bienes a salvo con nosotros</h2>
                                 </div>                                

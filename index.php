@@ -6,6 +6,7 @@
         <title>Tecnisistema Lanwork Place, C.A</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilos-mobile.css">
         <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
         

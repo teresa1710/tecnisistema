@@ -29,8 +29,88 @@
 }
 
  @media screen and (max-width : 768px) {
-    .header .menu-logo .redes-sociales-header i{
-        
+    header .menu-logo .redes-sociales-header{
+        display: none;
     }
+    
+    .carrusel .texto-carrusel-1{
+        font-size: 4rem;
+        margin-bottom: 40rem;
+    }
+
+    .carrusel .texto-carrusel-2{
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .carrusel .texto-carrusel-3{
+        font-size: 3rem;
+        margin-bottom: 30rem; 
+    }
+
+    .carrusel .texto-carrusel-4{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        margin-left: 0;
+        padding: 1rem;
+    }
+
+    .main .titulo{
+        font-size: 3rem;
+    }
+
+    .main .areas-de-negocio .primera-fila .img-iconos,
+    .main .areas-de-negocio .segunda-fila .img-iconos{
+        width: 8rem;
+    }
+
+    .main .areas-de-negocio .primera-fila,
+    .main .areas-de-negocio .segunda-fila{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .main .areas-de-negocio .titulo-icono{
+        font-size: 1.5rem;
+    }
+
+    .main .areas-de-negocio .iconos{
+        display: flex;
+        align-items: center;
+    }
+
+    .main .numeros .numero {
+        font-size: 5rem;
+    }
+
+    .main .numeros .palabra {
+        font-size: 2rem;
+    }
+
+    .main .numeros{
+        height: 60rem;
+    }
+
+    .main .contacto .titulo{
+        margin-bottom: 1rem;
+    }
+
+    .main .contacto .titulo-ciudad{
+        font-size: 2rem;
+    }
+
+    .main .contacto .direccion h5,
+    .main .contacto .telefono h5{
+        font-size: 2rem;
+    }
+
+    .main .contacto .puerto{
+        margin-top: 2rem;
+    }
+
+    .main .contacto .correo h5{
+        font-size: 2rem;
+    }
+
 }
 

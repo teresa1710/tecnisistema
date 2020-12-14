@@ -137,8 +137,8 @@
                         <h3 class="titulo">Áreas de Negocio</h3>
                     </div>
                 </div>
-
-                <div class="row iconos">
+            
+                <div class="row iconos justify-content-center">
                     <div class="col-md-4 primera-fila">
                         <a href="areas-de-negocio.html">
                             <img class="img-iconos" src="img/Iconos/laptop-con-flecha.png" alt="">  
@@ -161,7 +161,7 @@
                     </div>
                 </div>
 
-                <div class="row iconos">
+                <div class="row iconos justify-content-center">
                     <div class="col-md-6 segunda-fila">
                         <a href="areas-de-negocio.html">
                             <img class="img-iconos" src="img/Iconos/seguridad-informatica (1).png" alt="">
@@ -169,7 +169,7 @@
                         </a>
                     </div>
 
-                    <div class="col md-6 segunda-fila">
+                    <div class="col-md-6 segunda-fila">
                         <a href="areas-de-negocio.html">
                             <img class="img-iconos" src="img/Iconos/rayo-relampago.png" alt="">
                             <p class="titulo-icono">Energía</p>
@@ -192,7 +192,7 @@
                         <h5 class="palabra">Años de experiencia</h5>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 ultimo">
                         <h3 class="numero">100</h3>
                         <h5 class="palabra">Proyectos</h5>
                     </div>
@@ -208,48 +208,48 @@
                     </div>
                 </div>
 
-                <div class="horarios">
-                    <div class="row">
-                        <div class="col-md-6 direccion">
-                            <h5 class="subtitulo-ciudad">Caracas</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="titulo-ciudad">Caracas</h5>
+
+                        <div class="direccion">
                             <h5>Avenida San Ignacio de Loyola, </h5>
                             <h5>Res. San Ignacio. Piso 4, Oficina A4D</h5>
                             <h5>Chacao, Caracas.</h5>
                         </div>
 
-                        <div class="col-md-6">
-                            <h5 class="subtitulo-ciudad">Puerto Ordaz</h5>
-                            
-                        </div>
-                    </div>
-
-                    <div class="row segundo-bloque">
-                        <div class="col-md-6 telefonos">
-                            <h5>Teléfonos:</h5>
+                        <div class="telefono">
+                            <h5>Teléfonos</h5>        
                             <h5>+58 (212) 264 11 20 </h5>
                             <h5>+58 (212) 264 05 22</h5>
                         </div>
-
-                        <div class="col-md-6">
-                        </div>
                     </div>
 
-                    <div class="row tercer-bloque">
-                        <div class="col-md-6">
-                            <h5>Horarios:</h5>
-                            <h5>Lunes a Viernes</h5>
-                            <h5>8:00 am - 4:00 pm</h5>
+                    <div class="col-md-6">
+                        <h5 class="titulo-ciudad puerto">Puerto Ordaz</h5>
+
+                        <div class="direccion">
+                            <h5>Avenida San Ignacio de Loyola, </h5>
+                            <h5>Res. San Ignacio. Piso 4, Oficina A4D</h5>
+                            <h5>Chacao, Caracas.</h5>
+                        </div>
+
+                        <div class="telefono">
+                            <h5>Teléfonos</h5>        
+                            <h5>+58 (212) 264 11 20 </h5>
+                            <h5>+58 (212) 264 05 22</h5>
                         </div>
                     </div>
+                </div>               
 
-                    <div class="row correo">
-                        <div class="col-md-12">
-                            <h5>tecnisistema@tecnisistema.com</h5>
-                        </div>
+                <div class="row correo">
+                    <div class="col-md-12">
+                        <h5>tecnisistema@tecnisistema.com</h5>
                     </div>
                 </div>
+            </div>
 
-                <div class="formulario">
+                <div class="formulario container">
                     <form method="POST">
                             <div class="row">
                                 <div class="col-md-6">

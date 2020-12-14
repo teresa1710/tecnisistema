@@ -112,5 +112,106 @@
         font-size: 2rem;
     }
 
+    .main .formulario .form-correo{
+        margin-top: 1.5rem;
+    }
+
+    .main .redes-sociales{
+        justify-content: center;
+    }
 }
 
+@media screen and (max-width : 480px) {
+    header .menu-logo img{
+        width: 10rem;
+    }
+
+    .carrusel .imagen-carrusel {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .carrusel .texto-carrusel-1{
+        font-size: 2rem;
+        margin-bottom: 20rem;
+    }
+
+    .carrusel .texto-carrusel-2{
+        font-size: 2rem;
+    }
+
+    .carrusel .texto-carrusel-3{
+        font-size: 2rem;
+        margin-bottom: 15rem;
+    }
+
+    .carrusel .texto-carrusel-4{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .main .titulo{
+        font-size: 2rem;
+    }
+    
+    .main .areas-de-negocio .primera-fila .img-iconos,
+    .main .areas-de-negocio .segunda-fila .img-iconos{
+        width: 4rem;
+    }
+
+    .main .areas-de-negocio .titulo-icono{
+        font-size: 1.2rem;
+    }
+
+    .main .areas-de-negocio .titulo{
+        margin: 2rem 0;
+    }
+
+    .main .numeros .numero {
+        font-size: 3rem;
+    }
+
+    .main .numeros .palabra {
+        font-size: 1.5rem;
+    }
+
+    .main .numeros{
+        height: 50rem;
+    }
+
+    .main .contacto .titulo-ciudad{
+        font-size: 1.5rem;
+    }
+
+    .main .contacto .direccion h5,
+    .main .contacto .telefono h5{
+        font-size: 1.5rem;
+    }
+
+    .main .contacto .correo h5{
+        font-size: 1.5rem;
+    }
+
+    .main .contacto .formulario .form-nombre{
+        font-size: 1rem;
+    }
+
+    .main .mapa iframe{
+        height: 40rem;
+    }
+
+    footer .redes-sociales i{
+        font-size: 3rem;
+    }
+
+    footer .creditos a{
+        font-size: 1.5rem;
+    }
+
+    footer .redes-sociales .r-sociales{
+        width: 33.33%;
+    }
+    
+
+}

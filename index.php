@@ -253,13 +253,13 @@
                     <form method="POST">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input class="form-nombre form-control input-lg form-control-lg" 
-                                    required id="name" name="nombre" type="text" placeholder="Nombre" required>
+                                    <input class="form-nombre form-control form-control-lg" 
+                                    required id="name" name="nombre" type="text" placeholder="Nombre">
                                 </div>
 
                                 <div class="col-md-6">
-                                    <input class="form-control form-control-lg" 
-                                    required id="email" name="correo" type="email" placeholder="Correo Electrónico" required>
+                                    <input class="form-correo form-control form-control-lg" 
+                                    required id="email" name="correo" type="email" placeholder="Correo Electrónico">
                                 </div>
                             </div>
 
@@ -289,18 +289,19 @@
     <footer>
         <section class="redes-sociales">
             <div class="container">
-                <div class="row mx-auto">
-                    <div class="r-sociales col-md-4">
+                <div class="row mx-auto row-redes">
+                    <div class="r-sociales col-md-4 col-sm-2">
                         <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
                     </div>
 
-                    <div class="r-sociales col-md-4">
-                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                    </div>
+                        <div class="r-sociales col-md-4 col-sm-2">
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
 
-                    <div class="r-sociales col-md-4">
-                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
+                        <div class="r-sociales col-md-4 col-sm-2">
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                
                 </div>
             </div>
         </section>

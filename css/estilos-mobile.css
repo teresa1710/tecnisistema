@@ -193,10 +193,6 @@
         font-size: 1.5rem;
     }
 
-    .main .contacto .formulario .form-nombre{
-        font-size: 1rem;
-    }
-
     .main .mapa iframe{
         height: 40rem;
     }
@@ -205,7 +201,7 @@
         font-size: 3rem;
     }
 
-    footer .creditos a{
+    footer .creditos .referencia p{
         font-size: 1.5rem;
     }
 
@@ -213,5 +209,86 @@
         width: 33.33%;
     }
     
+    ::placeholder{
+        font-size: 1.5rem;
+    }
+    
+    .main .formulario button{
+        font-size: 1.5rem;
+    }
 
+}
+
+@media screen and (max-width : 320px) {
+    .carrusel .imagen-carrusel {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .carrusel .texto-carrusel-1{
+        font-size: 1.5rem;
+        margin-bottom: 10rem;
+    }
+
+    .carrusel .texto-carrusel-2{
+        font-size: 1.5rem;
+    }
+
+    .carrusel .texto-carrusel-3{
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .carrusel .texto-carrusel-4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    .main .titulo{
+        font-size: 1.5rem;
+    }
+
+    .main .areas-de-negocio .primera-fila,
+    .main .areas-de-negocio .segunda-fila{
+        height: 10rem;
+    }
+
+    .main .numeros .numero {
+        font-size: 2rem;
+    }
+
+    .main .numeros .palabra {
+        font-size: 1rem;
+    }
+
+    .main .numeros{
+        height: 40rem;
+        padding-top: 4rem;
+    }
+
+    .main .contacto .titulo-ciudad{
+        font-size: 1.2rem;
+    }
+
+    .main .contacto .direccion h5,
+    .main .contacto .telefono h5{
+        font-size: 1.2rem;
+    }
+
+    .main .contacto .correo h5{
+        font-size: 1.2rem;
+    }
+
+    ::placeholder{
+        font-size: 1.2rem;
+    }
+    .main .formulario button{
+        font-size: 1.2rem;
+    }
+
+    footer .creditos .referencia p{
+        font-size: 1rem;
+    }
 }

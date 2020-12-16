@@ -1,0 +1,69 @@
+@media screen and (max-width : 1200px) {
+    .main .nosotros{
+        height: 60rem;
+    }
+
+    .main .subtitulo{
+        font-size: 3rem;
+    }
+
+    .main .texto{
+        font-size: 1.8rem
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .main .nosotros{
+        height: 50rem;
+    }
+
+    .main .subtitulo{
+        font-size: 2.5rem;
+    }
+
+    .main .texto{
+        font-size: 1.5rem
+    }
+
+    footer .redes-sociales{
+        justify-content: center;   
+    }
+
+}
+
+@media screen and (max-width : 480px) {
+    .main .nosotros{
+        height: 35rem;
+    }
+
+    .main .subtitulo{
+        font-size: 2.2rem;
+    }
+
+    .main .texto{
+        font-size: 1.2rem
+    }
+
+    .main .texto{
+        margin: 2rem;
+    }
+
+}
+
+@media screen and (max-width : 320px){
+    .main .nosotros{
+        height: 25rem;
+    }
+
+    .main .subtitulo{
+        font-size: 1.5rem;
+    }
+
+    .main .texto{
+        font-size: 1rem
+    }
+
+    .main .texto{
+        margin: 2rem;
+    }
+}

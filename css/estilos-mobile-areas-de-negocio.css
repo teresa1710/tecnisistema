@@ -1,0 +1,121 @@
+@media screen and (max-width : 768px) {
+    .main .areas-titulo{
+        height: 40rem;
+    }
+
+    .menu-areas .botones-menu i{
+        font-size: 4rem;
+    }
+
+    .main .menu-areas .botones-menu{        
+        width: 4rem;
+        text-align: center;
+    }
+
+    .categorias i{
+        font-size: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .categorias .categoria-individual p{
+        font-size: 1.2rem;
+    }
+
+    .marcas .alinear-marcas .marca,
+    .marcas .alinear-marcas .marca-grande{
+        margin: 2rem;
+    }
+
+    .main .descripcion{
+        margin-bottom: 3rem;
+    }
+
+    .main .categoria-individual p{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width : 480px){
+
+    .main .titulo{
+        margin: 0;
+    }
+
+    .main .areas-titulo{
+        height: 30rem;
+    }
+
+    .menu-areas .botones-menu{
+        text-align: center;        
+        align-items: center;
+    }
+
+    .menu-areas .botones-menu i{
+        font-size: 3rem;
+    }
+
+    .main .menu-areas .botones-menu{        
+        width: 5.5rem;
+        text-align: center;
+    }
+
+    .main .descripcion{
+        margin-bottom: 3rem;
+    }
+
+    .main .categoria-individual p{
+        display: none;
+    }
+
+    .main .descripcion p,
+    .main .caracteristicas p{
+        font-size: 1.5rem;
+    }
+
+    .categorias i{
+        font-size: 2.5rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .marcas .alinear-marcas .marca,
+    .marcas .alinear-marcas .marca-grande{
+        width: 9rem;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .main .areas-titulo{
+        height: 30rem;
+    }
+
+    .menu-areas .botones-menu i{
+        font-size: 2rem;
+    }
+
+    .main .descripcion p,
+    .main .caracteristicas p{
+        font-size: 1.2rem;
+    }
+
+    .categorias i{
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+        padding: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .main .marcas .subtitulo{
+        font-size: 2.2rem;
+        margin: 1rem;
+    }
+    
+    .marcas .alinear-marcas .marca,
+    .marcas .alinear-marcas .marca-grande{
+        width: 7rem;
+    }
+    
+}

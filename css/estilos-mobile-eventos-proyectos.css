@@ -35,6 +35,31 @@
     .main .proyectos .proyecto-imagen{
         width: 18rem;
     }
+
+    .main .proyecto-texto p{
+        font-size: 1rem;
+    }
+    
+    .main .proyectos .proyecto .proyecto-texto{
+        margin: 0;
+    }
 }
 
-@media screen and (max-width : 320px) {}
+@media screen and (max-width : 320px) {
+
+    .main .proyecto-titulo{
+        height: 20rem;
+    }
+
+    .main .proyectos .proyecto-imagen{
+        width: 15rem;
+    }
+
+    .main .proyecto-texto p{
+        font-size: 0.8rem;
+    }
+
+    .main .proyectos .proyecto i{
+        font-size: 1rem;
+    }
+}

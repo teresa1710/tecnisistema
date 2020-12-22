@@ -1,0 +1,40 @@
+@media screen and (max-width : 768px) {
+    .main .proyecto-titulo{
+        height: 50rem;
+    }
+
+    .main .proyectos .slogan{
+        font-size: 1.8rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main .proyectos .proyecto-imagen{
+        width: 25rem;
+    }
+
+    .main .proyecto-texto p{
+        font-size: 1.2rem;
+    }
+
+    .main .proyectos .proyecto .proyecto-texto{
+        margin: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .main .proyecto-titulo{
+        height: 30rem;
+    }
+
+    .main .proyectos .slogan{
+        font-size: 1.5rem;
+        margin: 2.5rem;
+    }
+
+    .main .proyectos .proyecto-imagen{
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width : 320px) {}

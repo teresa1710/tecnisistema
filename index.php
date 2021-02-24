@@ -89,7 +89,7 @@
                             <div class="carousel-item active">
                                 <img class="d-block imagen-carrusel" src="img/Fondos/carrusel4.jpg" alt="First slide">
                                 <div class="carousel-caption">
-                                    <h2 class="texto-carrusel-1">Innovamos para evolucionar</h2>
+                                    <h2 class="texto-carrusel-1">Innovamos para crecer</h2>
                                 </div>
                             </div>
                                                                     

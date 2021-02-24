@@ -45,11 +45,37 @@ html {
     overflow: hidden;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.main .quienes-somos .izquierda{
-    margin-right: 1rem;
+/* - - - - M I S I O N - - - - */
+
+.main .mision {
+    background: url("../img/Fondos/computer-azul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    height: 35rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+/* - - - - V I S I O N - - - - */
+
+.main .vision {
+    background: #160c35;
+    height: 35rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* - - - - G E N E R A L - - - -*/
 
 .main .subtitulo {
     overflow: hidden;
@@ -65,43 +91,15 @@ html {
     text-align: right;
 }
 
-/* - - - - M I S I O N - - - - */
-
-.main .mision {
-    background: url("../img/Fondos/computer-azul.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 0;
-    height: 30rem;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mision .texto{
-    color: #fff;
-}
-
-.mision .subtitulo{
-    color: #fff;
-}
-
-/* - - - - V I S I O N - - - - */
-
-.main .vision {
-    background: #160c35;
-    height: 30rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+.mision .texto,
 .vision .texto{
     color: #fff;
+    margin-right: 6rem;
 }
 
+.mision .subtitulo,
 .vision .subtitulo{
     color: #fff;
 }
+
 

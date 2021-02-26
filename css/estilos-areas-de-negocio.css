@@ -66,6 +66,16 @@ html {
 
 /* - - - - S E C C I O N E S - - - - */
 
+
+.main .computacion .texto .descripcion p,
+.main .redes .texto .descripcion p,
+.main .seguridad .texto .descripcion p,
+.main .energia .texto .descripcion p,
+.main .desarrollo-web .texto .descripcion p{
+   font-size: 1.8rem;
+   text-align: center;
+}
+
 .main .redes,
 .main .seguridad,
 .main .energia,
@@ -163,7 +173,8 @@ html {
 .main .telefonos,
 .main .pantallas,
 .main .tablets,
-.main .juegos {
+.main .juegos,
+.main .consumibles {
     display: none;
 }
 

@@ -8,6 +8,8 @@ const btnPantallas = document.getElementById("btnPantallas");
 const btnTablets = document.getElementById("btnTablets");
 const btnJuegos = document.getElementById("btnJuegos");
 const btnConsumibles = document.getElementById("btnConsumibles");
+const btnSoftware = document.getElementById("btnSoftware");
+const btnProyectores = document.getElementById("btnProyectores");
 
 // - - - - D I V ' S - - - -
 
@@ -20,6 +22,36 @@ const divPantallas = document.getElementById("pantallas");
 const divTablets = document.getElementById("tablets");
 const divJuegos = document.getElementById("juegos");
 const divConsumibles = document.getElementById("consumibles");
+const divSoftware = document.getElementById("software");
+const divProyectores = document.getElementById("proyectores");
+
+btnSoftware.onclick = function (){
+    divServidores.style.display = "none";
+    divComputadoras.style.display = "none";
+    divImpresoras.style.display = "none";
+    divComponentes.style.display = "none";
+    divTelefonos.style.display = "none";
+    divPantallas.style.display = "none";
+    divTablets.style.display = "none";
+    divJuegos.style.display = "none";
+    divConsumibles.style.display ="none";
+    divSoftware.style.display = "block";
+    divProyectores.style.display = "none";
+}
+
+btnProyectores.onclick = function (){
+    divServidores.style.display = "none";
+    divComputadoras.style.display = "none";
+    divImpresoras.style.display = "none";
+    divComponentes.style.display = "none";
+    divTelefonos.style.display = "none";
+    divPantallas.style.display = "none";
+    divTablets.style.display = "none";
+    divJuegos.style.display = "none";
+    divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "block";
+}
 
 btnServidores.onclick = function(){
     divServidores.style.display = "block";
@@ -31,6 +63,8 @@ btnServidores.onclick = function(){
     divTablets.style.display = "none";
     divJuegos.style.display = "none";
     divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }
 
 btnComputadoras.onclick = function(){
@@ -43,6 +77,8 @@ btnComputadoras.onclick = function(){
     divTablets.style.display = "none";
     divJuegos.style.display = "none";
     divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }
 
 btnTablets.onclick = function (){
@@ -55,6 +91,8 @@ btnTablets.onclick = function (){
     divTablets.style.display = "block";
     divJuegos.style.display = "none";
     divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }
 
 
@@ -68,6 +106,8 @@ btnImpresoras.onclick = function(){
     divTablets.style.display = "none";
     divJuegos.style.display = "none";
     divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }
 
 btnComponentes.onclick = function(){
@@ -80,6 +120,8 @@ btnComponentes.onclick = function(){
     divTablets.style.display = "none";
     divJuegos.style.display = "none";
     divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }
 
 btnTelefonos.onclick = function(){
@@ -92,6 +134,8 @@ btnTelefonos.onclick = function(){
     divTablets.style.display = "none";
     divJuegos.style.display = "none";
     divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }
 
 btnPantallas.onclick = function(){
@@ -104,6 +148,8 @@ btnPantallas.onclick = function(){
     divTablets.style.display = "none";
     divJuegos.style.display = "none";
     divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }
 
 btnJuegos.onclick = function(){
@@ -116,6 +162,8 @@ btnJuegos.onclick = function(){
     divTablets.style.display = "none";
     divJuegos.style.display = "block";
     divConsumibles.style.display ="none";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }
 
 btnConsumibles.onclick = function(){
@@ -128,4 +176,6 @@ btnConsumibles.onclick = function(){
     divTablets.style.display = "none";
     divJuegos.style.display = "none";
     divConsumibles.style.display ="block";
+    divSoftware.style.display = "none";
+    divProyectores.style.display = "none";
 }

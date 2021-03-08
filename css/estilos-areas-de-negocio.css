@@ -174,7 +174,9 @@ html {
 .main .pantallas,
 .main .tablets,
 .main .juegos,
-.main .consumibles {
+.main .consumibles,
+.main .software,
+.main .proyectores{
     display: none;
 }
 

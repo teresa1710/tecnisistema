@@ -10,6 +10,7 @@ const btnJuegos = document.getElementById("btnJuegos");
 const btnConsumibles = document.getElementById("btnConsumibles");
 const btnSoftware = document.getElementById("btnSoftware");
 const btnProyectores = document.getElementById("btnProyectores");
+const btnCableado = document.getElementById("btnCableado")
 
 // - - - - D I V ' S - - - -
 

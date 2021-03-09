@@ -182,7 +182,8 @@ html {
 
 .main .lan-wan,
 .main .fibra-optica,
-.main .cableado {
+.main .cableado,
+.main .radios{
     display: none;
 }
 

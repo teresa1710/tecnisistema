@@ -76,6 +76,18 @@ html {
    text-align: center;
 }
 
+.main .caracteristicas .subtitulo-caracteristica p{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.main .caracteristicas .subtitulo-caracteristica .segunda p{
+    margin-top: 3rem;
+}
+
+
 .main .redes,
 .main .seguridad,
 .main .energia,

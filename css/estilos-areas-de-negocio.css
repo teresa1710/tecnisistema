@@ -87,6 +87,12 @@ html {
     margin-top: 3rem;
 }
 
+.main .caracteristicas .energia-caracteristica p{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin: 3rem 0;
+    text-align: center;
+}
 
 .main .redes,
 .main .seguridad,

@@ -149,6 +149,20 @@ html {
 .main .texto {
     margin-bottom: 5rem;
 }
+
+.categorias .categoria-individual .titulo-portafolio {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.categorias .categoria-individual .titulo-portafolio:hover{
+    text-decoration: none;
+}
+
+.desarrollo-web .portafolio img{
+    width: 50rem;
+}
 /* - - - - M A R C A S - - - - */
 
 .main .marcas{

@@ -163,6 +163,7 @@ html {
 .desarrollo-web .portafolio img{
     width: 50rem;
 }
+
 /* - - - - M A R C A S - - - - */
 
 .main .marcas{
@@ -197,6 +198,10 @@ html {
     font-weight: 300;
     overflow: hidden;
     margin: 3rem 0;
+}
+
+.desarrollo-web .marcas .alinear-marcas .dessarrollo-descripcion h2{
+    overflow: hidden;
 }
 
 .main .computadoras,

@@ -282,7 +282,15 @@
         </section>
 
         <section class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1138.0792863778631!2d-66.85570889581489!3d10.493040863416178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfde9420bae6dcfd3!2sResidencias%20San%20Ignacio!5e0!3m2!1ses-419!2sve!4v1604348187102!5m2!1ses-419!2sve" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="row">
+                <div class="col-md-6 mapas">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1138.0792863778631!2d-66.85570889581489!3d10.493040863416178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfde9420bae6dcfd3!2sResidencias%20San%20Ignacio!5e0!3m2!1ses-419!2sve!4v1604348187102!5m2!1ses-419!2sve" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+                <div class="col-md-6 mapas">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.8879541278548!2d-62.73302658443346!3d8.313932202064944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcbfa27887affe9%3A0xcd83fc76c9eacad1!2sVilla%20Granada%2C%20Ciudad%20Guayana%208050%2C%20Bol%C3%ADvar!5e0!3m2!1ses-419!2sve!4v1615824323390!5m2!1ses-419!2sve" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
         </section>
     </section>
 

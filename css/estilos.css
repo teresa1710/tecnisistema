@@ -246,12 +246,17 @@ header .menu .actual {
 
 /* - - - - M A P A - - - - */
 
-.mapa{
+.mapas{
     width: 100%;
     overflow: hidden;
 }
 
-.mapa iframe {
+.mapa .mapas{
+    margin: 0;
+    padding: 0;
+}
+
+.mapas iframe {
     width: 100%;
     max-height: 600px;
     vertical-align:bottom;

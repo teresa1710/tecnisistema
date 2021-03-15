@@ -200,8 +200,23 @@ html {
     margin: 3rem 0;
 }
 
-.desarrollo-web .marcas .alinear-marcas .dessarrollo-descripcion h2{
+.main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion{
+    margin: 20rem 0;
+}
+
+.main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion h2{
     overflow: hidden;
+    text-align: justify;
+}
+
+.main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion p{
+    margin-top: 3rem;
+    font-size: 1.8rem;    
+    font-weight: 700;
+}
+
+.main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion i{
+    color: #1900FF;
 }
 
 .main .computadoras,

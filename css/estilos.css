@@ -56,6 +56,12 @@ header .redes-sociales-header .instagram:hover{
 
 /* - - - M E N U    P R I N C I P A L - - - */
 
+header .fijo{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 .3rem .4rem;
+}
+
 header .menu {
     background: #1900FF;
     text-align: center;

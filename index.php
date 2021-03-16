@@ -17,7 +17,7 @@
         <script src="js/popper.min.js"></script>        
         <script src="js/contador.js"></script>
         <script src="js/enlaces.js"></script>
-        
+        <script src="js/navegacionfija.js"></script>
 
 </head>
 <body>
@@ -34,7 +34,7 @@
             </div>
         </div>        
         
-        <div class="row">
+        <div id="menu" class="row">
             <div class="col-md-12">
                 <nav class="menu navbar navbar-expand-lg">
                     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +74,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row carrusel">
             <div class="col-md-12">
                 <div id="carrusel" class="carousel slide carrusel" data-ride="carrusel">
                     <ol class="carousel-indicators"> 
@@ -129,7 +129,7 @@
         </div>
     </header>
 
-    <section class="main">
+    <section id="main" class="main">
         <section class="areas-de-negocio" id="areas">
             <div class="container">
                 <div class="row">

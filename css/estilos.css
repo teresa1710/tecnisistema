@@ -58,8 +58,15 @@ header .redes-sociales-header .instagram:hover{
 
 header .fijo{
     position: fixed;
-    width: 100%;
-    box-shadow: 0 .3rem .4rem;
+    top: 0;
+    width: 102%;
+    box-shadow: 0 .3rem .4rem rgba(0,0,0, .5);
+    position:fixed;
+    left:0;
+    right:0;
+    z-index:99;
+    background:white;
+
 }
 
 header .menu {

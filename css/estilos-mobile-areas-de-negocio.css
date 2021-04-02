@@ -6,6 +6,10 @@
     .menu-areas .botones-menu i{
         font-size: 4rem;
     }
+    
+    .menu-areas .computacion .categorias-padre i{
+        font-size: .8rem;
+    }
 
     .main .menu-areas .botones-menu{        
         width: 4rem;

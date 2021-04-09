@@ -80,3 +80,24 @@ html {
 .main .proyectos .proyecto .proyecto-izquierda p{
     text-align: right;
 }
+
+.main .galeria .galeria-subtitulo{
+    overflow: hidden;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.main .galeria .galeria-titulo{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.main .galeria .galeria-imagenes{
+    margin-bottom: 5rem;
+}
+
+.main .galeria .galeria-imagenes-segunda-fila{
+    margin-top: 3rem;
+}

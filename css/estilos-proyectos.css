@@ -101,3 +101,7 @@ html {
 .main .galeria .galeria-imagenes-segunda-fila{
     margin-top: 3rem;
 }
+
+.main .galeria img{
+    overflow: hidden;
+}

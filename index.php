@@ -11,10 +11,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
         <script src="js/waypoints-1.js"></script>
         <script src="js/Counter-Up-master/jquery.counterup.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/popper.min.js"></script>        
+        
+        <script src="js/bootstrap.min.js"></script>     
+        
         <script src="js/contador.js"></script>
         <script src="js/enlaces.js"></script>
         <script src="js/navegacionfija.js"></script>
@@ -76,10 +78,10 @@
 
         <div class="row carrusel">
             <div class="col-md-12">
-                <div id="carrusel" class="carousel slide carrusel" data-ride="carrusel">
+                <div id="carrusel" class="carousel slide" data-ride="carrusel">
                     <ol class="carousel-indicators"> 
                         <!--Indicadores-->
-                        <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carrusel" data-slide-to="0" class="active"></li>
                             <li data-target="#carrusel" data-slide-to="1"></li>
                             <li data-target="#carrusel" data-slide-to="2"></li>
                             <li data-target="#carrusel" data-slide-to="3"></li>
@@ -242,11 +244,6 @@
                     </div>
                 </div>               
 
-                <div class="row correo">
-                    <div class="col-md-12">
-                        <h5>tecnisistema@tecnisistema.com</h5>
-                    </div>
-                </div>
             </div>
 
                 <div class="formulario container">
@@ -295,25 +292,6 @@
     </section>
 
     <footer>
-        <section class="redes-sociales">
-            <div class="container">
-                <div class="row mx-auto row-redes">
-                    <div class="r-sociales col-md-4 col-sm-2">
-                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-
-                        <div class="r-sociales col-md-4 col-sm-2">
-                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                        </div>
-
-                        <div class="r-sociales col-md-4 col-sm-2">
-                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                        </div>
-                
-                </div>
-            </div>
-        </section>
-
         <section class="creditos">
             <div class="container">
                 <div class="row">

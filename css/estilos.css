@@ -225,6 +225,10 @@ header .menu .actual {
     margin: 3rem 0;
 }
 
+.main .contacto .telefono {
+    margin-bottom: 3rem;
+}
+
 /* - - - -  F O R M U L A R I O - - - - */
 
 .main .contacto .formulario {
@@ -256,6 +260,7 @@ header .menu .actual {
 .contacto button:hover{
     background: var(--azul-electrico);
 }
+
 
 /* - - - - M A P A - - - - */
 

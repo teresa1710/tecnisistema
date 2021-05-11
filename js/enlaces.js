@@ -2,6 +2,10 @@ $(document).ready(function(){
     var Areas = $('#areas').offset().top;
     var Contacto = $('#contacto').offset().top;
 
+    $('#carrusel').carousel({
+        interval: 5000
+    })
+
     $('#btn-areas').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({

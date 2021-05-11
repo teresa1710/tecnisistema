@@ -161,7 +161,7 @@ html {
 }
 
 .desarrollo-web .portafolio img{
-    width: 50rem;
+    width: 60rem;
 }
 
 /* - - - - M A R C A S - - - - */
@@ -204,15 +204,17 @@ html {
     margin: 20rem 0;
 }
 
-.main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion h2{
+.main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion h3{
     overflow: hidden;
     text-align: justify;
+    font-weight: 400;    
+    line-height: 2.5rem;
 }
 
 .main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion p{
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 1.8rem;    
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion i{

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tecnisistema Lanwork Place, C.A</title>
@@ -32,7 +32,7 @@
             <div class="col-md-6 redes-sociales-header">
                 <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/tecnisistema_cs/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
             </div>
         </div>        
         
@@ -231,9 +231,9 @@
                         <h5 class="titulo-ciudad puerto">Puerto Ordaz</h5>
 
                         <div class="direccion">
-                            <h5>Avenida San Ignacio de Loyola, </h5>
-                            <h5>Res. San Ignacio. Piso 4, Oficina A4D</h5>
-                            <h5>Chacao, Caracas.</h5>
+                            <h5>Avenida Paseo Caroní, </h5>
+                            <h5>Sector 2, Casa 1</h5>
+                            <h5>Puerto Ordaz, Edo. Bolivar.</h5>
                         </div>
 
                         <div class="telefono">
@@ -285,7 +285,7 @@
                 </div>
 
                 <div class="col-md-6 mapas">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.8879541278548!2d-62.73302658443346!3d8.313932202064944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcbfa27887affe9%3A0xcd83fc76c9eacad1!2sVilla%20Granada%2C%20Ciudad%20Guayana%208050%2C%20Bol%C3%ADvar!5e0!3m2!1ses-419!2sve!4v1615824323390!5m2!1ses-419!2sve" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.7646182436292!2d-62.7755692678903!3d8.275475167455557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcbf93732ad9383%3A0xa14bf41cadd90e74!2sAvenida%20Paseo%20Caroni%2C%20Ciudad%20Guayana%208050%2C%20Bol%C3%ADvar!5e0!3m2!1ses-419!2sve!4v1621030202669!5m2!1ses-419!2sve" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </section>

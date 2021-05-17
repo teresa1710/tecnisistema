@@ -220,11 +220,6 @@
                             <h5>Chacao, Caracas.</h5>
                         </div>
 
-                        <div class="telefono">
-                            <h5>Teléfonos</h5>        
-                            <h5>+58 (212) 264 11 20 </h5>
-                            <h5>+58 (212) 264 05 22</h5>
-                        </div>
                     </div>
 
                     <div class="col-md-6">
@@ -235,14 +230,18 @@
                             <h5>Sector 2, Casa 1</h5>
                             <h5>Puerto Ordaz, Edo. Bolivar.</h5>
                         </div>
-
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
                         <div class="telefono">
                             <h5>Teléfonos</h5>        
                             <h5>+58 (212) 264 11 20 </h5>
                             <h5>+58 (212) 264 05 22</h5>
                         </div>
                     </div>
-                </div>               
+                </div>
 
             </div>
 

@@ -249,6 +249,8 @@ html {
 }
 
 .main .plantas,
-.main .ups{
+.main .ups,
+.main .inversores,
+.main .baterias{
     display: none;
 }

@@ -105,3 +105,19 @@ html {
 .main .galeria img{
     overflow: hidden;
 }
+
+.main .proyectos .titulo-proyecto h3{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.main .proyectos .descripcion-proyecto{
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.main .proyecto .proyecto-texto .lugar {
+    font-weight: 400;
+}

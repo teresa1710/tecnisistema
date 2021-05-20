@@ -37,14 +37,14 @@ html {
     color: #fff;
 }
 
-.main .proyectos .cont-slogan{
+.main .proyecto-slogan .cont-slogan{
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main .proyectos .slogan {
+.main .proyecto-slogan .slogan {
     font-size: 2.5rem;
     font-weight: 300;
     overflow: hidden;
@@ -106,7 +106,7 @@ html {
     overflow: hidden;
 }
 
-.main .proyectos .titulo-proyecto h3{
+.main .proyectos .titulo-proyecto-h3{
     font-size: 2rem;
     text-align: center;
     font-weight: 400;

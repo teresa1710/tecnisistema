@@ -122,3 +122,25 @@ html {
     font-weight: 400;
 }
 
+.main .proyecto-2{
+    background-color: #e6e6e6;
+}
+
+.main .proyecto-medio-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .proyecto-medio-div h3{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.main .proyecto-3 .proyecto img{
+    width: 45rem;
+}
+
+.main .proyecto-3 .proyecto .proyecto-texto{
+    margin-top: 2rem;
+}

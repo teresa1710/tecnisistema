@@ -185,7 +185,7 @@
             <div class="container">
                 <div class="row">
                    <div class="col-md-4">
-                        <h3 class="numero">20</h3>
+                        <h3 class="numero">96</h3>
                         <h5 class="palabra">Clientes</h5>
                     </div>
 
@@ -195,7 +195,7 @@
                     </div>
 
                     <div class="col-md-4 ultimo">
-                        <h3 class="numero">100</h3>
+                        <h3 class="numero">60</h3>
                         <h5 class="palabra">Proyectos</h5>
                     </div>
                 </div>

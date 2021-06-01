@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
         
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         
         <script src="js/waypoints-1.js"></script>
         <script src="js/Counter-Up-master/jquery.counterup.js"></script>

@@ -1,12 +1,12 @@
 <?php    
     if(isset($_POST['enviar'])){
-        if(!empty($_POST['nombre']) && !empty($_POST['correo']) && !empty($_POST['telefono']) && !empty($_POST['direccion']) && !empty($_POST['mensaje'])){
+        if(!empty($_POST['nombre']) && !empty($_POST['correo']) && !empty($_POST['mensaje'])){
             $nombre = $_POST['nombre'];
             $correo = $_POST['correo'];
             $mensaje = $_POST['mensaje'];
 
             $asunto = "CONTACTO TECNISISTEMA";
-            $destinatario = "tecnisistema@tecnisistema.com";
+            $destinatario = "atavernelli@tecnisistema.com";
 
             $elcorreo = "Este mensaje fue enviado desde el Sitio Web de Tecnisistema. \n";
             $elcorreo .= "DE: $nombre .\n";

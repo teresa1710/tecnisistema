@@ -55,7 +55,7 @@
                 nums.unshift(newNum);
             }
 
-            console.log(num + " " + divisions );
+            //console.log(num + " " + divisions );
 
             
 

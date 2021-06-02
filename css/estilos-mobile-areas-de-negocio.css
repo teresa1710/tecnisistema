@@ -3,8 +3,23 @@
         height: 40rem;
     }
 
+    .main .computacion .descripcion img,
+    .main .redes .descripcion img,
+    .main .seguridad .descripcion img,
+    .main .energia .descripcion img{
+        display: none;
+    }
+
+    .main .desarrollo-web .marcas .portafolio {
+        width: 50rem;
+    }
+
+    .main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion{
+        margin: 2rem;
+    }
+
     .menu-areas .botones-menu i{
-        font-size: 4rem;
+        font-size: 2rem;
     }
     
     .menu-areas .computacion .categorias-padre i{
@@ -17,7 +32,7 @@
     }
 
     .categorias i{
-        font-size: 3rem;
+        font-size: 4rem;
         text-align: center;
         align-items: center;
     }
@@ -99,6 +114,22 @@
         font-size: 2rem;
     }
 
+    .main .computacion .texto .descripcion p,
+    .main .redes .texto .descripcion p,
+    .main .seguridad .texto .descripcion p,
+    .main .energia .texto .descripcion p,
+    .main .desarrollo-web .texto .descripcion p {
+        font-size: 1.5rem;
+    }
+
+    .main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion h3{
+        font-size: 1.5rem;
+    }
+
+    .main .desarrollo-web .marcas .alinear-marcas .desarrollo-descripcion p{
+        font-size: 1.2rem;
+    }
+
     .main .descripcion p,
     .main .caracteristicas p{
         font-size: 1.2rem;
@@ -118,7 +149,8 @@
     }
     
     .marcas .alinear-marcas .marca,
-    .marcas .alinear-marcas .marca-grande{
+    .marcas .alinear-marcas .marca-grande,
+    .marcas .alinear-marcas .marca-extra-grande{
         width: 7rem;
     }
     

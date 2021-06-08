@@ -90,24 +90,46 @@
         padding-right: 2rem;
         font-size: 1.2rem;
         text-align: center;
+        margin: 2rem 0;
     }
 
+    .main .proyectos .proyecto{
+        margin: 2rem 0;
+    }
+
+    .main .galeria .galeria-subtitulo{
+        font-size: 1.3rem;
+    }
+
+    .main .galeria .gallery-card{
+        padding: .3rem;
+    }
+
+    .main .galeria .galeria-imagenes-segunda-fila{
+        margin-top: 1.5rem;
+    }
+
+    .main .galeria .galeria-imagenes{
+        margin-bottom: 2rem;
+    }
     .main .proyectos .titulo-proyecto-h3{
         font-size: 1rem;
+    }
+
+    .main .galeria img{
+        width: 5rem;
+    }
+    .main .proyecto-titulo{
+        height: 20rem;
     }
 
     .main .proyectos .proyecto-imagen{
         width: 10rem;
     }
 
-    .main .proyecto-titulo{
-        height: 20rem;
+    .main .proyecto-3 .proyecto img{
+        width: 10rem;
     }
-
-    .main .proyectos .proyecto-imagen{
-        width: 15rem;
-    }
-
     .main .proyecto-texto p{
         font-size: 0.8rem;
     }

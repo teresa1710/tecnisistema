@@ -220,6 +220,7 @@
 }
 
 @media screen and (max-width : 320px) {
+   
     .carrusel .imagen-carrusel {
         width: 100%;
         height: 20rem;

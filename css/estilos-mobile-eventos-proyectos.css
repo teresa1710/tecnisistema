@@ -1,3 +1,10 @@
+@media only screen and (max-width : 1500px) {
+    header .menu-fijo {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
 @media screen and (max-width : 768px) {
     .main .proyecto-titulo{
         height: 50rem;
@@ -7,6 +14,25 @@
         font-size: 1.8rem;
         padding: 0;
         text-align: center;
+    }
+
+    .main .proyecto-slogan .slogan{
+        font-size: 1.8rem;
+    }
+
+    .main .proyectos .titulo-proyecto-h3{
+        font-size: 1.8rem;
+    }
+    .main .proyectos .proyecto-imagen{
+        width: 20rem;
+    }
+
+    .main .galeria img {
+        width: 7rem;
+    }
+
+    .main .proyecto-3 .proyecto img{
+        width: 30rem;
     }
 
     .main .proyectos .proyecto-imagen{
@@ -23,6 +49,18 @@
 }
 
 @media screen and (max-width : 480px) {
+
+    .main .proyecto-slogan .slogan{
+        font-size: 1.5rem;
+    }
+
+    .main .proyectos .titulo-proyecto-h3{
+        font-size: 1.5rem;
+    }
+
+    .main .galeria .galeria-subtitulo{
+        font-size: 1.8rem;
+    }
     .main .proyecto-titulo{
         height: 30rem;
     }
@@ -46,6 +84,21 @@
 }
 
 @media screen and (max-width : 320px) {
+
+    .main .proyecto-slogan .slogan{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .main .proyectos .titulo-proyecto-h3{
+        font-size: 1rem;
+    }
+
+    .main .proyectos .proyecto-imagen{
+        width: 10rem;
+    }
 
     .main .proyecto-titulo{
         height: 20rem;

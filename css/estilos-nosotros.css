@@ -19,6 +19,7 @@ html {
     font-size: 62.5%;
 }
 
+
 /* - - - - T I T U L O - - - - */
 
 .main .nosotros {
@@ -102,4 +103,7 @@ html {
     color: #fff;
 }
 
-
+.menu-fijo{
+    margin-left: -15px;
+    margin-right: -15px;
+  }

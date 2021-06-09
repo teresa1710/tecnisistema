@@ -21,6 +21,11 @@
         font-size: 2.5rem;
     }
 
+    .main .quienes-somos .texto{
+        margin: 2rem 5rem;
+        text-align: justify;
+    }
+
     .main .texto{
         font-size: 1.5rem
     }
@@ -65,5 +70,13 @@
 
     .main .texto{
         margin: 2rem;
+    }
+
+    .main .mision{
+        height: 20rem;
+    }
+    
+    .main .vision{
+        height: 20rem;
     }
 }

@@ -36,8 +36,8 @@
             </div>
         </div>        
         
-        <div id="menu" class="row">
-            <div class="col-md-12 menu-fijo">
+        <div id="menu">
+            <div class="menu-fijo">
                 <nav class="menu navbar navbar-expand-lg">
                     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

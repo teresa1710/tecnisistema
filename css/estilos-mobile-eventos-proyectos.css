@@ -29,7 +29,7 @@
     }
 
     .main .proyectos .proyecto-imagen{
-        width: 25rem;
+        width: 20rem;
     }
 
     .main .proyecto-texto p{
@@ -37,8 +37,16 @@
     }
 
     .main .proyectos .proyecto .proyecto-texto{
-        margin: 1rem 2rem;
+        margin: 1rem;
+        padding: 1rem;
     }
+
+    .main .proyecto-texto .titulo-evento{
+        font-size: 1.8rem;
+    }
+
+   
+
 }
 
 @media screen and (max-width : 480px) {

@@ -42,3 +42,8 @@ html {
 .main .proyecto-texto .izquierda{
     text-align: right;
 }
+
+.menu-fijo{
+    margin-left: -15px;
+    margin-right: -15px;
+  }

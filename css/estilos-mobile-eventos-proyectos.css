@@ -85,6 +85,11 @@
     .main .proyectos .proyecto .proyecto-texto{
         margin: 0;
     }
+
+    .main .proyecto-slogan .slogan{
+        padding: 2rem;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width : 320px) {
